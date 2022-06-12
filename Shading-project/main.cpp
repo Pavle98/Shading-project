@@ -131,7 +131,7 @@ GLfloat white_light[] =
   case 1:
 
     glLightfv(GL_LIGHT0, GL_AMBIENT, green_light);
-    //glRotated((GLdouble) spin/3, mousePos.x/2, mousePos.y/2, 0.0);
+   // glRotated((GLdouble) spin/3, mousePos.x/2, mousePos.y/2, 0.0);
     glutSolidTorus(0.275, 0.85, 20, 20);
 
     break;
@@ -174,8 +174,8 @@ GLfloat white_light[] =
   //definisemo osobine 2d matrice
   gluOrtho2D(0, 3000, 0, 3000);
   glPushMatrix();
-  output(80, 2800, "Grafika projekat");
-  output(80, 100, "Pavle Vukovic RN66/18");
+  output(80, 2800, "Shading project");
+  output(80, 100, "Pavle Vukovic");
   //crtamo objekat
   glPopMatrix();
   glMatrixMode(GL_PROJECTION);
